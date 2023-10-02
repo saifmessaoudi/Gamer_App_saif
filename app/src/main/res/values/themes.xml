@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Saif_messaoudi_Game_App" parent="Theme.Material3.Light.NoActionBar" >
+        <item name="android:statusBarColor">@color/Primary</item>
+        <item name="android:navigationBarColor">@color/Primary</item>
+        <item name="snackbarStyle">@style/AppSnackbarStyle</item>
+    </style>
+    <style name="Theme.GamerApp" parent="Theme.Saif_messaoudi_Game_App" />
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="startIconTint">@color/inputColor</item>
+        <item name="endIconTint">@color/inputColor</item>
+        <item name="android:textColorHint">@color/inputColor</item>
+        <item name="hintTextColor">@color/inputColor</item>
+        <item name="suffixTextColor">@color/inputColor</item>
+    </style>
+    <style name="AppSnackbarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

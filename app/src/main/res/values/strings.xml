@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GamerApp</string>
+    <string name="registerNow">
+        <u>Register Now</u>
+    </string>
+    <string name="termsAndConditions">
+        By registering you agree to our <u>Terms &amp; \nConditions</u> and <u>Privacy Policy</u>
+    </string>
+    <string name="resondCode">
+        <u>Resend code</u>
+    </string>
+    <string name="input_suffix_Email">\@esprit.tn</string>
+    <string name="not_empty">Must not be empty!</string>
+</resources>
