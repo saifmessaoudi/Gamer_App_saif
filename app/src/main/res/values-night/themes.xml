@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Saif_messaoudi_Game_App" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/Primary</item>
+        <item name="android:navigationBarColor">@color/Primary</item>
+        <item name="snackbarStyle">@style/AppSnackbarStyle</item>
+    </style>
+    <style name="Theme.GamerApp" parent="Theme.Saif_messaoudi_Game_App" />
+    <!-- Custom TextInputLayout Colors -->
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="startIconTint">@color/inputColor</item>
+        <item name="endIconTint">@color/inputColor</item>
+        <item name="android:textColorHint">@color/inputColor</item>
+        <item name="hintTextColor">@color/inputColor</item>
+        <item name="suffixTextColor">@color/inputColor</item>
+    </style>
+    <!-- Custom SnackBar color -->
+    <style name="AppSnackbarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/Primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
